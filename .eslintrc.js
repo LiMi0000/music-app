@@ -12,6 +12,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
+  parser: 'babel-eslint',
   rules: {
     'max-len': 0,
     'no-param-reassign': 0,
